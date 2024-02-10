@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Proposal</title>
+</head>
+<body>
+    <h1>Will you be my Valentine's?</h1>
+    <button onclick="response('yes')">Yes</button>
+    <button onclick="response('no')">No</button>
+
+    <script>
+        function response(answer) {
+            if (answer === 'yes') {
+                alert('Yayyy I love you!');
+            } else {
+                alert('That\'s okay, maybe next time.');
+            }
+        }
+    </script>
+</body>
+</html>
